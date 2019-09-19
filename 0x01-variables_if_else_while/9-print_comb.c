@@ -6,13 +6,18 @@
  */
 int main(void)
 {
-	char ch;
-	char c;
+int n = 0;
 
-	for (ch = 'a' ; ch <= 'z'; ch++)
-	putchar(ch);
-	for (c = 'A' ; c <= 'Z'; c++)
-		putchar(c);
+	while (n <= 9)
+	{
+		putchar('0' + n);
+		if (n < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		n++;
+	}
 	putchar('\n');
 	return (0);
 }
