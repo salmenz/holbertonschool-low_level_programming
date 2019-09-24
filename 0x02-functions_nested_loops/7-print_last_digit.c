@@ -1,17 +1,21 @@
+#include <stdio.h>
 #include "holberton.h"
-/**
-* print_last_digit - takes the last digit of a number
-* @r: number recieved
-*
-*Return: 1 a letter 0 otherwise
-*/
-int print_last_digit(int i)
-{
-int p;
 
-p = i % 10;
-if (p < 0)
-p = p * -1;
-_putchar ((p) + '0');
-return (p);
+/**
+ * print_last_digit - Prints the last digit of a number
+ * @number: The number to be checked
+ *
+ * Return: The last digit of the number
+ */
+
+int print_last_digit(int number)
+{
+	int lastdig = (number % 10);
+
+	if (lastdig < 0)
+		lastdig = lastdig * -1;
+
+	_putchar((lastdig) + '0');
+
+	return (lastdig);
 }

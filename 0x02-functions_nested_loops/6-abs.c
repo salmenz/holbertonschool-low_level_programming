@@ -1,15 +1,17 @@
+#include <stdio.h>
 #include "holberton.h"
-/**
-* _abs - takes a number into a absolute
-* @n: number recieved
-*
-*Return: 1 a letter 0 otherwise
-*/
-int _abs(int i)
-{
-if (i < 0)
-return (-i);
-else
-return (i);
-}
 
+/**
+ * _abs - Print the absolute value of an integer
+ * @p: The value to be converted to absolute value
+ *
+ * Return: Always 0
+ */
+
+int _abs(int p)
+{
+	if (p < 0)
+		return (-p);
+	else
+		return (p);
+}

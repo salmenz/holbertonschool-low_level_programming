@@ -1,20 +1,14 @@
 #include "holberton.h"
 /**
- * print_alphabet - Print the alphabet
+ * print_alphabet - function to print the alphabet
  *
- * Return: None
- *
+ * Return: nothing
  */
 void print_alphabet(void)
 {
-	char c = 'a';
-        int digit = 0;
+	char l;
 
-        while (digit < 26)
-        {
-                _putchar(c);
-                digit++;
-		c++;
-        }
-        _putchar ('\n');
+	for (l = 'a'; l <= 'z'; l++)
+		_putchar(l);
+	_putchar('\n');
 }
