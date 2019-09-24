@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* jack_bauer - print every minute of the day of Jack Bauer
+*
+*Return: nothing
+*/
 void jack_bauer(void)
 {
 int h, m;

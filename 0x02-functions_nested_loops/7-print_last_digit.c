@@ -1,9 +1,10 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* print_last_digit - takes the last digit of a number
+* @r: number recieved
+*
+*Return: 1 a letter 0 otherwise
+*/
 int print_last_digit(int i)
 {
 int p;

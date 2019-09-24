@@ -1,9 +1,10 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* print_sign - check the number inserted
+* @n: number recieved
+*
+*Return: 1 greater zero  0 is zero -1 less zero
+*/
 int print_sign(int n)
 {
 if (n > 0)

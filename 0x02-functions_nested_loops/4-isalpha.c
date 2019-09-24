@@ -1,9 +1,10 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* _isalpha - chack for aplphabetic character
+* @c: character recieved
+*
+*Return: 1 a letter 0 otherwise
+*/
 int _isalpha(int c)
 {
 if ((65 <= c && c <= 90) || (97 <= c && c <= 122))
