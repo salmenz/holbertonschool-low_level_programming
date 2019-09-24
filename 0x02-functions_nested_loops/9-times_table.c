@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* times_table - ptints the 9 times table starting with 0
+*
+*Return: nothing
+*/
 void times_table(void)
 {
 	int r, c;
