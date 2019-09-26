@@ -5,7 +5,7 @@
  * print_most_numbers - prints the numbers
  * Do not print 2 and 4
  *
- * Return: The last digit of the number
+ *
  */
 
 void print_most_numbers(void)
