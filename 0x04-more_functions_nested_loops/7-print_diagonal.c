@@ -2,26 +2,27 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - Prints the last digit of a number
- * @n: The number to be checked
- *
- * Return: The last digit of the number
+ * print_diagonal - Prints \ n times
+ * @n: The number passed to the function
  */
 
 void print_diagonal(int n)
 {
-int i;
+	int diagonal = 0;
+	int space = 0;
 
-if (n > 0)
-{
-while (i < n - 1)
-{
-_putchar ('_');
-i++;
-}
-_putchar ('\\');
-_putchar ('\n');
-}
-else
-_putchar ('\n');
+	while (diagonal < n && n >= 1)
+	{
+		while (diagonal > space)
+		{
+			_putchar(' ');
+			space++;
+		}
+		diagonal++;
+		_putchar('\\');
+		_putchar('\n');
+		space = 0;
+	}
+	if (n <= 0)
+		_putchar('\n');
 }
