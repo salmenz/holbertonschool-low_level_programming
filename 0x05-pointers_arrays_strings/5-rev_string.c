@@ -12,14 +12,14 @@ char c[10];
 int i, j, k;
 
 j = 0;
-while (s[j] != '\0')
+while (s[j])
 j++;
 k = 0;
 for (i = j - 1; i >= 0; i--)
 {
-c[k] = s[i];
+*(c + k) = *(s + i);
 k++;
 }
-for (k = 0; k <= j - 1; k++)
-s[k] = c[k];
+for (k = 0; k < j ; k++)
+*(s + k) = *(c + k);
 }
