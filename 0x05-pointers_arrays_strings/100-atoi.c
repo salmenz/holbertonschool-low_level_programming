@@ -10,7 +10,6 @@
 int _atoi(char *s)
 {
 int l, p, i, j, sum;
-
 i = 0;
 l = 0;
 sum = 0;
