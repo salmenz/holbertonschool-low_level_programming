@@ -17,7 +17,7 @@ while ((src[k] != '\0') && (k < n))
 k++;
 }
 
-while (k < n - 1)
+while (k+1 < n)
 {
 *(dest + k) = '\0';
 k++;
