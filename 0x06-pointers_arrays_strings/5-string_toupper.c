@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * string_toupper - function
- * @s: function input
+ * @c: function input
  *
  * Return: always 0
  */
