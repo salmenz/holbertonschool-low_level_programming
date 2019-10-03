@@ -14,10 +14,11 @@ int k = 0;
 while ((src[k] != '\0') && (k < n))
 {
 *(dest + k) = *(src + k);
+if (src[n - 1] != '\0')
 k++;
 }
 
-while (k+1 < n)
+while (k < n)
 {
 *(dest + k) = '\0';
 k++;
