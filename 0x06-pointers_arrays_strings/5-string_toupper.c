@@ -5,14 +5,14 @@
  *
  * Return: always 0
  */
-char *string_toupper(char *s)
+char *string_toupper(char *c)
 {
 int i;
-while (s[i] != '\0')
+
+for (i = 0; c[i] != '\0'; i++)
 {
-if (s[i] >= 'a' && s[i] <= 'z')
-s[i] -= 32;
-i++;
+if (c[i] >= 'a' && c[i] <= 'z')
+c[i] = c[i] - 32;
 }
-return (s);
+return (c);
 }
