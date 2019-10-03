@@ -1,23 +1,23 @@
-#include <stdio.h>
-/**
- * cap_string - function
- *
- * @s: function input
- * Return: Always return 0
- */
-char *cap_string(char *s)
-{
-int j;
 
-j=0;
-while (s[j] != '\0')
+#include "holberton.h"
+/**
+* *cap_string - Capitalizes all words of a string
+*@c: string to change
+*Return: char changed
+*/
+char *cap_string(char *c)
 {
-if (s[j] == ' ' || s[j] == '\t' || s[j] == '\n' || s[j] == ',' || s[j] == ';' || s[j] == '.' || s[j] == '!' || s[j] == '?' || s[j] == '"' || s[j] == '(' || s[j] == ')' || s[j] == '{' || s[j] == '}')
-if (s[j + 1] >= 'a' && s[j + 1] <= 'z')
-s[j + 1] = s[j + 1] - 32;
-j++;
-}
-if (s[0] >= 'a' && s[0] <= 'z')
-s[0] = s[0] - 32;
-return (s);
+	int i;
+
+if (c[0] >= 'a' && c[0] <= 'z')
+c[0] = c[0] - 32;
+for (i = 1; c[i] != '\0'; i++)
+if ((c[i - 1] == ' ' || c[i - 1] == '\t' || c[i - 1] == '\n'
+|| c[i - 1] == ','
+|| c[i - 1] == ';' || c[i - 1] == '.' || c[i - 1] == '!'
+|| c[i - 1] == '?' || c[i - 1] == '"' || c[i - 1] == '('
+|| c[i - 1] == ')' || c[i - 1] == '{' || c[i - 1] == '}')
+&& (c[i] > 'a' && c[i] < 'z'))
+c[i] = c[i] - 32;
+return (c);
 }
