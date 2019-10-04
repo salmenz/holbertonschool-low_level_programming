@@ -10,3 +10,4 @@ void print_buffer(char *b, int size);
 int _putchar(char c);
 char *leet(char *);
 int _putchar(char c);
+void print_number(int n);
