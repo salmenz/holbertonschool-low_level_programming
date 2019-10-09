@@ -3,7 +3,7 @@
 
 /**
  * wildcmp - Compares strings
- * 
+ *
  * @s1: string to compare
  * @s2: string to compare
  *

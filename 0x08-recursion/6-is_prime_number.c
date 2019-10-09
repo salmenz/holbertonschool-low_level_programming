@@ -1,14 +1,14 @@
 #include "holberton.h"
 
 /**
- * p - Increments count
+ * prime - Increments count
  * @count: The number to divide
  * @p: The number to check
  *
  * Return: 1 if is prime 0 otherwise
  */
 
-int prime_counter(int count, int p)
+int prime(int count, int p)
 {
 if (p < 0)
 return (0);
