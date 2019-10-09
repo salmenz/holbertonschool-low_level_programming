@@ -1,15 +1,15 @@
-#include <stdio.h>
 #include "holberton.h"
 
 /**
- * _puts_recursion - Prints a string
- * @s: string
+ * _print_rev_recursion - Print a string in reverse
+ * @s: The string
  */
-void _puts_recursion(char *s)
+
+void _print_rev_recursion(char *s)
 {
 if (*s != '\0')
 {
-_puts_recursion(s + 1);
+_print_rev_recursion(s + 1);
 _putchar(*s);
 }
 if (*s == '0')
