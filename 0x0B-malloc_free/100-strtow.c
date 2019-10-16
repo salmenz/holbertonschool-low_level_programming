@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * free_m - frees 2d array
-* @grid: 2d array of char
+* @m: 2d array of char
 * @height: height
 */
 void free_m(char **m, unsigned int height)
