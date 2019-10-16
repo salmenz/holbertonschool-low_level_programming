@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* *argstostr - concatenatea the arguments of the program
-*@ac: argument counter
-*@av: argument vector
-*Return: 0 (success)
+* *argstostr - arguments of the program
+*@ac: counter
+*@av: vector
+*Return: shting with new ligne
 */
 char *argstostr(int ac, char **av)
 {
@@ -21,7 +21,7 @@ k++;
 k++;
 }
 k++;
-str = malloc(k * sizeof(char));
+str = malloc(k *sizeof(char));
 b = str;
 if (str == NULL)
 return (NULL);
