@@ -19,7 +19,7 @@ if (n - 1 == i)
 printf("%d", va_arg(l, int));
 else
 {
-if (separator == NULL)
+if (separator != NULL)
 printf("%d%s", va_arg(l, int), separator);
 else
 printf("%d", va_arg(l, int));
