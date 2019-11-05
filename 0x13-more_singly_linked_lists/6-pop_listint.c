@@ -10,10 +10,10 @@ int n;
 listint_t *p;
 
 p = *head;
-if (*head == NULL)
+if (*head == NULL || !head)
 return (0);
 n = (*head)->n;
 *head = (*head)->next;
-free (p);
+free(p);
 return (n);
 }
