@@ -11,7 +11,7 @@ unsigned int n = 0;
 
 if (head == NULL)
 return (NULL);
-while (head->next)
+while (head)
 {
 if (index == n)
 return (head);

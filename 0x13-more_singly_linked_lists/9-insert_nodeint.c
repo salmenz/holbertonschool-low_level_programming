@@ -20,7 +20,7 @@ if (p == NULL)
 return (NULL);
 while (h)
 {
-if (i == idx)
+if (i == idx - 1)
 {
 p->n = n;
 p->next = h->next;
