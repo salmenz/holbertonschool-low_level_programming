@@ -3,6 +3,7 @@
 /**
  * pop_listint - delete head and return his data
  * @head:the first node of the list
+ * Return: data of the node deleted
  */
 int pop_listint(listint_t **head)
 {
