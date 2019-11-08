@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * flip_bits -  returns the number of bits you would need to flip to get from one number to another
+ * flip_bits - returns the nbr of bits you need to flip to get 2nd integer
  * @n: integer 1
  * @m: integer 2
  * Return: nbr of bits you need to flip
