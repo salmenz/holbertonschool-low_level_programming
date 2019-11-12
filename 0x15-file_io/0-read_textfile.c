@@ -26,7 +26,7 @@ i = open(filename, O_RDWR);
 if (i == -1)
 return (0);
 l = read(i, b, letters);
-if (l == 1)
+if (l > 0)
 {
 j = write(STDOUT_FILENO, b, l);
 if (j != l || j == -1)
