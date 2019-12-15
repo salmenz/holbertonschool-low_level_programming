@@ -38,9 +38,14 @@ return (NULL);
 }
 i++;
 }
+if (p->next != NULL)
+{
 new->next = p->next;
-new->prev = p;
 new->next->prev = new;
+}
+else
+new->next = NULL;
+new->prev = p;
 p->next = new;
 return (new);
 }
