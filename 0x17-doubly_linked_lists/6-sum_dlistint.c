@@ -4,7 +4,7 @@
  * @head: the first node of the list
  * Return: Sum
  */
-int sum_dlistint(listint_t *head)
+int sum_dlistint(dlistint_t *head)
 {
 int sum = 0;
 

@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * insert_dnodeint_at_index - insert a node in nth index at a double linked list
+ * insert_dnodeint_at_index - insert a node in nth idx at a double linked list
  * @head: the first node in the list
  * @idx: the index of the node added
  * @n: the integer to insert into the data node
  * Return: node
  */
-dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx,
+int n)
 {
 dlistint_t *p, *new;
 unsigned int i = 0;

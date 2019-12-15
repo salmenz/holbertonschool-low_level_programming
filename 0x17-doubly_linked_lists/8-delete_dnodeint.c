@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * delete_dnodeint_at_index - delete a node in nth index at a double linked list
+ * delete_dnodeint_at_index - delete a node in nth idx at a double linked list
  * @head: the first node in the list
  * @index: the index of the node to delete
  * Return: 1 if deleted -1 if not
