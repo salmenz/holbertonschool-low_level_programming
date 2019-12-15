@@ -40,7 +40,7 @@ i++;
 }
 new->next = p->next;
 new->prev = p;
-p->next->prev = new;
+new->next->prev = new;
 p->next = new;
 return (new);
 }
