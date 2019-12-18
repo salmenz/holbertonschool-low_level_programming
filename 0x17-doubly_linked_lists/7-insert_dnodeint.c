@@ -19,6 +19,12 @@ if (p == NULL)
 return (NULL);
 if (*h == NULL && idx > 0)
 return (NULL);
+if (*h == NULL && idx == 0)
+{
+(*h)->n = n;
+(*h)->next = NULL;
+return (*h);
+}
 while (e->next != NULL)
 e = e->next;
 p->n = n;
