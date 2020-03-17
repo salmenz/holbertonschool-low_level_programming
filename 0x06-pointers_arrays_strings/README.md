@@ -1,44 +1,48 @@
-# 0x06. C - More pointers, arrays and strings
+# 0x06. C - Even more pointers, arrays and strings
 
 ## Description
-More practice with pointers, arrays, and strings.
+What you should learn from this project:
+
+* What are pointers to pointers and how to use them
+* What are multidimensional arrays and how to use them
+* What are the most common C standard library functions to manipulate strings
 
 ---
 
-### [0. strcat](./0-strcat.c)
-* Write a function that concatenates two strings.
+### [0. memset](./0-memset.c)
+* Write a function that fills memory with a constant byte.
 
 
-### [1. strncat](./1-strncat.c)
-* Write a function that concatenates two strings.
+### [1. memcpy](./1-memcpy.c)
+* Write a function that copies memory area.
 
 
-### [2. strncpy](./2-strncpy.c)
-* Write a function that copies a string.
+### [2. strchr](./2-strchr.c)
+* Write a function that locates a character in a string.
 
 
-### [3. strcmp](./3-strcmp.c)
-* Write a function that compares two strings.
+### [3. strspn](./3-strspn.c)
+* Write a function that gets the length of a prefix substring.
 
 
-### [4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy](./4-rev_array.c)
-* Write a function that reverses the content of an array of integers.
+### [4. strpbrk](./4-strpbrk.c)
+* Write a function that searches a string for any of a set of bytes.
 
 
-### [5. Always look up](./5-string_toupper.c)
-* Write a function that changes all lowercase letters of a string to uppercase.
+### [5. strstr](./5-strstr.c)
+* Write a function that locates a substring.
 
 
-### [6. Expect the best. Prepare for the worst. Capitalize on what comes](./6-cap_string.c)
-* Write a function that capitalizes all words of a string.
+### [6. Chess is mental torture](./7-print_chessboard.c)
+* Write a function that prints the chessboard.
 
 
-### [7. Mozart composed his music not for the elite, but for everybody](./7-leet.c)
-* Write a function that encodes a string into 1337.
+### [7. The line of life is a ragged diagonal between duty and desire](./8-print_diagsums.c)
+* Write a function that prints the sum of the two diagonals of a square matrix of integers.
 
 
-### [8. rot13](./8-rot13.c)
-* Write a function that encodes a string using rot13.
+### [8. Double pointer, double fun](./9-set_string.c)
+* Write a function that sets the value of a pointer to a char.
 
 ---
 
